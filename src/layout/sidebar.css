@@ -1,0 +1,96 @@
+.mysidebar{
+    position: relative;
+    z-index: 1;
+    width: 275px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;   
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.fixed {
+    position: fixed;
+    top: 0;
+}
+.tweethover {
+    position: relative;
+    top: 0.2rem;
+    width: 40px;
+    height: 40px;
+    background: white;   
+    }
+.tweethover >svg {
+    width: 30px;
+    height: 30px;
+    padding: 0.6rem;
+    fill: currentColor;
+    color: #1D9BF0;
+}
+.tweethover > svg:hover {
+    background: rgb(222, 237, 245);
+    cursor: pointer;
+    border-radius: 9999px;
+
+}
+nav {
+    margin-top:0.75rem;
+}
+.enes{
+    display: flex;
+    width: 14rem;
+    height: 52px;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: rgb(29, 155, 240);
+    color: white;
+}
+.enes:hover{
+    background: rgb(12, 141, 228);
+    cursor: pointer;
+}
+.aysima{
+    position: absolute;
+    left: -0.5rem;
+    bottom: -10.5rem;
+    padding: 0.5rem 0.8rem;
+    text-align: left; 
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.aysima:hover {
+    background-color: #EEEEEF;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.foto{
+    border-radius: 50%;
+    width: 40px !important;
+    height:40px !important;
+}
+.bottom{
+display: flex;
+flex-direction: column;
+margin-left: 1rem;
+align-items: center;
+margin-top: .5rem;
+}
+.span-style2{
+font-weight: 600;
+margin-left: -1.25rem;
+font-size: 1rem;
+font-family: cursive;
+opacity: 0.7;
+}
+.span-style3 {
+color: grey;
+font-size: 1rem;
+}
+.dot{
+display: flex;
+margin-left: 1.5rem; 
+align-items: center;    
+}

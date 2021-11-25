@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import {Container} from './layout/Container';
+import {Sidebar} from './layout/Sidebar';
+import {Contents} from './layout/Contents';
+import {Widgets} from './layout/Widgets';
 import './App.css';
+// import { ExploreContent } from './link/ExploreContent';
+// import { ExploreWidget } from './link/ExploreWidget'
+// import { MessageContent } from './link/MessageContent';
+// import { MessageWidget } from './link/MessageWidget';
+// import { NotificationsContent } from './link/NotificationsContent';
+// import { NotificationsWidget } from './link/NotificationsWidget';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Sidebar />
+        <Contents />
+        <Widgets />
+      </Container>      
     </div>
   );
 }

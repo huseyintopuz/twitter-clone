@@ -1,0 +1,146 @@
+.explorewidget {
+    width: 388px;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.follow {
+    position: relative;
+    width: 348px;
+    height: 390px;
+    background: #F7F9F9;
+    margin-left: 2rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
+.span-follow {
+    max-width: 348px;
+    max-height: 48px;
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 22px;
+    font-weight: bold;  
+}
+.flex2 {
+    display: flex;
+    flex-direction: column;
+}
+.flex {
+    max-width: 316px;
+    max-height: 48px;
+    display: flex;
+    padding: 12px 16px;
+}
+.flex:hover {
+    cursor: pointer;
+    background-color:#EFF1F1;
+}
+.image {
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+.margin-top {
+    max-width: 16rem;
+    align-items: center;
+    display: flex;
+}
+.margin-left {
+    display: flex;
+    text-align: left;
+    width: 138.63px;
+    margin-right: 2rem;
+    align-items: center;
+}
+.margin-right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 138.63px;
+    margin-right: 2rem;
+    font-size: 14px;
+}
+.align {
+    text-align: left;
+}
+.first-span {
+    font-weight: 700;
+}
+.first-span:hover {
+    text-decoration: underline;
+}
+.second-span {
+    color: grey;
+}
+.middle {
+    align-items: center;
+}
+.follow-button {
+    position: relative;
+    width: 77px;
+    height: 32px;
+    border-radius: 9999px;
+    background:#272C30;
+    border:  none;
+    color: white;
+    font-weight: 700;
+    padding: 0 16px;
+    cursor: pointer;
+}
+.tick {
+    position: relative;
+    top: 0;
+    left: rem;
+    color: blue;
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+}
+.show-more {
+    max-height: 52px;
+    padding: 16px;
+    color: #87C7F1;
+    font-size: 17px;
+    text-align: left;
+}
+.show-more:hover {
+    background: #EFF1F1;
+    cursor: pointer;
+    border-radius: 25px;   
+}
+.footer {
+    width: 350px;
+    height: 40px;
+    margin-left: 2rem;
+}
+.nav-span {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+    padding: 0 1rem;
+}
+.nav-span > span {
+    padding-right: 0.75rem;
+    font-size: 0.9rem;
+    color: gray;
+}
+.nav-span > span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.flex-more-icon {
+    display: flex;
+    padding-right: 1rem;
+}
+.more-icon {
+    padding: 1px;
+    margin-right: 1px;
+    width: 1px;
+    height: 1px;
+    border-radius: 9999px;
+    background: grey;
+    opacity: 0.7;
+}
+.inc > span {
+    padding-right: 0.75rem;
+    font-size: 0.9rem;
+    color: gray;
+}

@@ -1,0 +1,63 @@
+.tweetbox {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-left: 1rem;;
+    padding: 0 8px;
+}
+textarea {
+    width: 100%;
+    font-size: x-large;
+    color: darkgray;
+    outline: none;
+    overflow: hidden;
+    background: transparent;
+    align-items: center;
+    border: none;
+    position: relative;
+    top: 1.25rem;
+}
+.classdiv0 {
+    position: relative;
+    top: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.classdiv1 {
+    margin-left: -0.75rem;
+}
+.classdiv2 {
+    position: relative;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+.classdiv2 >svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    color: #1D9BF0;
+    padding: 8px;
+}
+.classdiv2 > svg:hover{
+    cursor: pointer;
+    background: #E8F5FD;
+    border-radius: 9999px;   
+}
+.button {
+    background: #8ECDF8;
+    border: none;
+    border-radius: 9999px;
+    padding: 1px 6px;
+    color: white;
+    font-size: medium;
+    width: 5rem;
+    height: 2.3rem;
+    position: absolute;
+    right: -18.5rem;
+    top: -0.2rem;
+    align-items: center;
+}
+

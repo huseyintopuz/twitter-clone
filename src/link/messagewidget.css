@@ -1,0 +1,57 @@
+.message-widget {
+    display: flex;
+    width: 599px;
+    height: 584px;
+    padding-top: 3px;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica;
+    
+}
+.you-width {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: 295px;
+    margin: 32px 99.5px;
+    padding: 0 2rem;
+    justify-content: center;
+    
+}
+.span-you {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    line-height: 36px;
+}
+.span-choose {
+    font-size: 15px;
+    opacity: 0.8;
+    text-align: left;
+    line-height: 20px;
+}
+.text-left {
+    text-align: left;
+}
+.text-margin {
+    margin-bottom: 0.5rem;
+}
+.text-margin2 {
+    margin-bottom: 1.75rem;
+}
+.text-left-button {
+    width: 175px;
+    height: 52px;
+    padding: 0 2rem;
+    border: none;
+    background: #1D9BF0;
+    border-radius: 9999px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.text-left-button:hover {
+    background: #0C8DE4;
+}

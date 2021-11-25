@@ -1,0 +1,131 @@
+main {
+    position: relative;
+    display: flex;
+    width: 598px;
+    top: 0;
+    flex: 1 1 0%;
+    flex-direction: column;
+    border-right: 1px solid #EFF3F4;
+    border-left: 1px solid #EFF3F4;
+    padding-top: 0 16px;
+    background: white;
+}
+header {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    width: 566px;
+    justify-content: space-between;
+    height: 53px;
+    padding: 0 1rem;
+    border-bottom: 1px solid #EFF3F4;
+    align-items: center;
+    cursor: pointer;
+    z-index: 3;
+}
+header > span {
+    align-items: center;
+    padding: 2px 0;
+    color: black;
+    font-weight: bold; 
+    font-size: 18px;
+    opacity: 0.7;
+    font-family: cursive;
+}
+.toptweet {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+.toptweet > svg {
+    width: 20px;
+    height: 20px;
+}
+.toptweet:hover {
+    background: rgba(231, 231, 232);
+    border-radius: 9999px;
+}
+.toptweet .colorSize {
+    margin-left: 0;
+}
+aside {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.condition {
+    position: relative;
+    top: -0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #EFF3F4;;
+}
+.condition > img {
+    position: relative;
+    top: -1rem;
+    left: 0.7rem;
+    border-width: 1px;
+    width: 46px;
+    height: 46px;
+    border-radius: 9999px;
+    cursor: pointer;
+    background: none;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+.condition > img:hover {
+    background: #B2BAC0;
+    opacity: 1;
+}
+aside > div > span {
+    font-family: cursive;
+    margin-left: 1.25rem; 
+    color: black;
+    font-size: 1.35rem;
+    opacity: 0.7;
+    padding: 2px 0;
+}
+.icon {
+    position: relative;
+    top: 1rem;
+    left: 3.3rem;
+    text-align: left;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;   
+}
+.icon > button {
+    position: relative;
+    left: 17rem;
+    color: white;    
+    padding: 5px;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 9999px;
+    background: #8ECDF8;
+    border: 1px solid #8ECDF8;
+    font-size: 0.9rem;
+    font-weight: bold;
+    top: -0.75rem;
+}
+.icons {
+    padding: 6px;
+}
+.light-blue g, .light-blue path, .light-blue circle{
+    fill: #1D9BF0;
+    
+}
+.light-blue:hover{
+    background: #E8F5FD;
+    border-radius: 9999px;   
+}
+

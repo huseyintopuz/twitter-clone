@@ -1,0 +1,226 @@
+.notifications {
+    position: relative;
+    top: -0.6rem;
+    flex: 1 1 0%;
+    flex-direction: column;
+    border-right: 1px solid #EFF3F4;
+    border-left: 1px solid #EFF3F4;
+    background: white;
+    font-family: Helvetica, sans-serif;
+    
+}
+.div-size{
+    position: relative;
+    width: 598px;
+    height: 348px;
+    border-bottom: 1px solid #EFF3F4;
+}
+.div-border{
+    position: fixed;
+    z-index: 3;
+    height: 106px;
+    border-bottom: 1px solid #EFF3F4;
+}
+.div-notifi {
+    width: 598px;
+    height: 53px;
+    display: flex;
+    cursor: pointer;
+    background: #fff;
+}
+.notifi {
+    text-align: left;
+    width: 510px;
+    height: 53px;
+    padding-left: 16px;
+}
+.name {
+    display: inline-block;
+    padding: 16px 0;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.seticon > svg {
+    position: relative;
+    top: 0.5rem;
+    left: 2rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: 8px;
+}
+.seticon > svg:hover {
+    background: #E7E7E8;
+    border-radius: 50%;
+}
+.div-notifii {
+    width: 598px;
+    height: 53px;
+    display: flex;
+    cursor: pointer;
+    background: #fff;
+}
+.all {
+    width: 246px;
+    height: 100%;
+    margin-right: 16px;
+    text-align: center;
+}
+.all:hover {
+    background: #E7E7E8;
+}
+.name2 {
+    display: inline-block;
+    padding: 16px 0;
+    font-weight: bold;
+    color: grey;
+}
+.underline {
+    width: 56px;
+    height: 4px;
+    background: #1D9BF0;
+    margin-left: 5.6rem;
+}
+.name3 {
+    display: inline-block;
+    padding: 16px 0;
+    font-weight: bold;
+    color: grey;
+}
+.mentions {
+    width: 342px;
+    height: 100%;
+    padding-left: 1rem;
+}
+.mentions:hover {
+    background: #E7E7E8;
+}
+.name3 {
+    display: inline-block;
+    padding: 16px 0;
+}
+.div-bottom {
+    position: absolute;
+    z-index: 1;
+    top: 6.7rem;
+    width: 100%;
+    height: 88px;
+    border-bottom: 1px solid #EFF3F4;
+    cursor: pointer;
+}
+.div-bottom:hover {
+    background: #E7E7E8;
+}
+.div-notifi2 {
+    position: relative;
+    width: 566px;
+    height: 64px;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+.bell > svg {
+    fill: currentColor;
+    color: blue;
+    position: relative;
+    top: -0.3rem;
+    left: 22px;
+    margin-right: 24px;
+}
+.bell > img {
+    border-radius: 50%;
+    margin-left: 0.7rem;
+}
+.div-span {
+    display: flex;
+    position: relative;
+    top: 0.8rem;
+    margin: 0;
+    margin-left: 4rem;
+    font-size: 14px;
+}
+.margin-rig {
+    margin-right: 1rem;
+}
+.font2 {
+    font-weight: bold;
+    cursor: pointer;
+}
+.font2:hover {
+    text-decoration: underline;
+}
+.recommend {  
+    position: absolute;
+    z-index: 1;
+    top: 12.3rem;
+    display: flex;
+    width: 566px;
+    height: 136px;
+    padding: 12px 16px;
+    cursor: pointer; 
+}
+.recommend:hover {
+    background: #E7E7E8;
+}
+.recommend2 {
+    display: flex;
+    flex-direction: column;
+    width: 506px;
+    height: 100%;
+}
+.recommend3 {
+    width: 486px;
+    height: 32px;
+    padding-right: 20px;
+    margin-bottom: 12px;
+    display: flex;
+}
+.recommend-icon {
+    width: 48px;
+    height: 100%;
+}
+.recommend-icon > svg {
+    padding-left: 22px;
+}
+.circle-flex {
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+    left: 28.5rem;
+    cursor: pointer;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 8px;
+}
+.circle-flex:hover {
+    background: #d4d4db;
+    border-radius: 9999px;
+}
+.circle-recom {
+    padding: 1px;
+    margin-right: 1px;
+    width: 2px;
+    height: 2px;
+    border-radius: 9999px;
+    background: black;
+    opacity: 0.7;
+}
+.recommend-image {
+    text-align: left;
+    margin-left: 0.7rem;
+}
+.recommend-image > img {
+    border-radius: 50%;
+}
+.div-rec {
+    text-align: left;
+    margin-left: 0.7rem;
+    font-size: 14px;
+}
+.rec {
+    padding-bottom: 7px;
+}
+.agı {
+    line-height: 20px;
+    color: rgb(83, 100, 113);
+}

@@ -1,0 +1,198 @@
+.explore {
+    position: relative;
+    top: 0;
+    flex: 1 1 0%;
+    flex-direction: column;
+    border-right: 1px solid #EFF3F4;
+    border-left: 1px solid #EFF3F4;
+    padding-top: 0 16px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-class {
+    position: relative;
+    height: 3rem;
+    top: -0.2rem;
+    align-items: center;
+    margin-left: 1rem;
+    border: 0;
+}
+.div-class2{
+    position: relative;
+    border-radius: 9999px;
+}
+.div-class2 > svg{
+    position: absolute;
+    height: 1.25rem;
+    width: 1.25rem;
+    left: 1.4rem;
+    top: 1.3rem;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.div-class2 > svg:focus {
+    fill: currentColor;
+    color: red;
+}
+.input {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0 0 0 3rem;
+    width: 28rem;
+    height: 2.6rem;
+    border-radius: 9999px;
+    background: #EFF3F4;
+    border: none;
+    font-size: 14px;
+}
+input:focus{
+    outline: none;
+    background: white;
+    /* border: 1px transparent rgb(86, 161, 204); OLMADI */
+}
+.setting > svg {
+    position: relative;
+    left: 31.5rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    z-index: 2;
+    top: 4px;
+    opacity: 0.75;
+    cursor: pointer;
+    padding: 8px;
+}
+.setting > svg:hover {
+    background: #E7E7E8;
+    border-radius: 50%;
+}
+.news {
+    position: relative;
+    text-align: left;
+    height: 332px;
+    cursor: pointer;
+    border: 1px solid #EFF3F4;
+}
+.img {
+    position: relative;
+    left: 0;
+    top: -4px;
+    z-index: 0;
+}
+.speech {
+    text-align: left;
+}
+.first {
+    position: absolute;
+    top: 15rem;
+    padding: 0.9rem 1rem;
+    z-index: 1;
+    color: #ffff;
+    font-size: 0.9rem;
+    
+}
+.second {
+    position: absolute;
+    top: 16rem;
+    padding: 1rem;
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.border {
+    width: 100%;
+    height: 5px;
+    background-color: #EFF3F4;
+}
+.title {
+    margin: 0;
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.circle {
+    padding: 1px;
+    margin-right: 1px;
+    width: 2px;
+    height: 2px;
+    border-radius: 9999px;
+    background: grey;
+    opacity: 0.7;
+}
+.lefttt {
+    text-align: left;
+    padding: 12px 20px;
+}
+.left{
+    text-align: left;
+    padding: 12px 20px;
+}
+.left:hover{
+    background: #EFF3F4;
+    cursor: pointer;
+}
+.flex5 {
+    display: flex;
+    align-items: center;
+}
+.right-circle {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -24rem;
+    cursor: pointer;
+    background: white;
+}
+.right-circle:hover{
+    background-color: #d5d5e2;
+    border-radius: 9999px;
+}
+.lacasa3 {
+    font-size: 20px;
+    margin: 0;
+}
+.lacasa {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(83, 100, 113);
+    line-height: 20px;
+}
+.lacasa2 {
+    font-size: 15px;
+    margin: 0;
+    line-height: 20px;
+}
+.margin-top{
+    margin-top: -0.2rem;
+}
+.marginTop {
+    margin-top: 0.2rem;
+}
+.trending > p{
+    margin: 0;
+}
+.bold {
+    font-weight: 700;
+    font-size: 15px;
+}
+.showmore {
+    width: 100%;
+    min-height: 52px;
+    cursor: pointer;    
+}
+.showmore:hover {
+    background: #EFF3F4;
+}
+.showmore > p {
+    color: #37A6F1;
+    padding: 16px;
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+}
