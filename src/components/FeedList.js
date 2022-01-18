@@ -2,7 +2,7 @@ import React from 'react'
 import { FeedItem } from './FeedItem'
 
 
-export const FeedList = ({displayName, username, verified, text, image, avatar }) => {
+export const FeedList = ({ tweets }) => {
     return (
         <div>
             {tweets.map((tweet, index) => (

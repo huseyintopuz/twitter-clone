@@ -1,6 +1,5 @@
 .explore {
     position: relative;
-    top: 0;
     flex: 1 1 0%;
     flex-direction: column;
     border-right: 1px solid #EFF3F4;
@@ -8,20 +7,24 @@
     padding-top: 0 16px;
     background: white;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 0;
 }
-.div-class {
-    position: relative;
-    height: 3rem;
-    top: -0.2rem;
+.div-class5 {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 1rem;
-    border: 0;
+    padding: 0.5rem 1rem 0;
+    height: 3.5rem;
+    background: #fff;
+    z-index: 10;
 }
-.div-class2{
+.div-class6{
     position: relative;
     border-radius: 9999px;
 }
-.div-class2 > svg{
+.div-class6 > svg{
     position: absolute;
     height: 1.25rem;
     width: 1.25rem;
@@ -30,16 +33,11 @@
     transform: translate(-50%,-50%);
     z-index: 2;
 }
-.div-class2 > svg:focus {
+.div-class6 > svg:focus {
     fill: currentColor;
     color: red;
 }
-.input {
-    position: absolute; 
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
+.input5 {
     z-index: 1;
     padding: 0 0 0 3rem;
     width: 28rem;
@@ -49,21 +47,17 @@
     border: none;
     font-size: 14px;
 }
-input:focus{
+.input5:focus {
     outline: none;
-    background: white;
-    /* border: 1px transparent rgb(86, 161, 204); OLMADI */
-}
+     background: white;
+     border: 1px solid #1D9BF0; 
+ }
 .setting > svg {
-    position: relative;
-    left: 31.5rem;
-    width: 1.3rem;
     height: 1.3rem;
     z-index: 2;
-    top: 4px;
     opacity: 0.75;
     cursor: pointer;
-    padding: 8px;
+    padding: 6px;
 }
 .setting > svg:hover {
     background: #E7E7E8;
@@ -129,7 +123,7 @@ input:focus{
 }
 .left{
     text-align: left;
-    padding: 12px 20px;
+    padding: 12px 28px 12px 20px;
 }
 .left:hover{
     background: #EFF3F4;
@@ -138,16 +132,11 @@ input:focus{
 .flex5 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .right-circle {
-    width: 30px;
     height: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: -24rem;
     cursor: pointer;
-    background: white;
 }
 .right-circle:hover{
     background-color: #d5d5e2;

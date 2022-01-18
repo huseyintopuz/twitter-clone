@@ -1,10 +1,17 @@
 .explorewidget {
-    width: 388px;
-    padding-top: 3px;
-    font-family: Arial, Helvetica, sans-serif; 
-}
-.follow {
     position: relative;
+    width: 388px;
+    font-family: Arial, Helvetica, sans-serif; 
+    z-index: 0;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+}
+.sticky2 {
+    padding-top: 0.75rem;
+}
+.follow2 {
     width: 348px;
     height: 390px;
     background: #F7F9F9;
@@ -111,18 +118,18 @@
     height: 40px;
     margin-left: 2rem;
 }
-.nav-span {
+.nav-span1 {
     display: flex;
     align-items: center;
     margin: 2px 0;
     padding: 0 1rem;
 }
-.nav-span > span {
+.nav-span1 > span {
     padding-right: 0.75rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: gray;
 }
-.nav-span > span:hover {
+.nav-span1 > span:hover {
     cursor: pointer;
     text-decoration: underline;
 }

@@ -7,10 +7,11 @@ export const Widgets = () => {
 
     return (
         <div className="mywidgets">
-            <div className="arama">
-                <SearchIcon className="search" />
-                <input className="input" placeholder="Search Twitter"></input>
-                
+            <div className="divarama">
+                <div className="arama">
+                    <SearchIcon className="search" />
+                    <input className="input" placeholder="Search Twitter"></input>
+                </div>
             </div>
             <h1>
                 <Timeline

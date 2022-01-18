@@ -1,25 +1,34 @@
 import React from 'react';
-import {Container} from './layout/Container';
-import {Sidebar} from './layout/Sidebar';
-import {Contents} from './layout/Contents';
-import {Widgets} from './layout/Widgets';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 import './App.css';
-// import { ExploreContent } from './link/ExploreContent';
-// import { ExploreWidget } from './link/ExploreWidget'
-// import { MessageContent } from './link/MessageContent';
-// import { MessageWidget } from './link/MessageWidget';
-// import { NotificationsContent } from './link/NotificationsContent';
-// import { NotificationsWidget } from './link/NotificationsWidget';
-
+import { HomeContainer } from './ContainerLayout/HomeContainer';
+import { ExploreContainer } from './ContainerLayout/ExploreContainer';
+import { MessageContainer } from './ContainerLayout/MessageContainer';
+import { NotificationsContainer } from './ContainerLayout/NotificationsContainer';
+import { Sidebar } from './layout/Sidebar';
+// import { selectHeads } from './features/headReducer'
+// import { useSelector } from 'react-redux';
 
 function App() {
+  document.title = "Twitter.com"
+  // const heads = useSelector(selectHeads)
+
   return (
     <div className="App">
-      <Container>
+      <Router>
         <Sidebar />
-        <Contents />
-        <Widgets />
-      </Container>      
+        <Routes>
+          <Route exact path="/" element={<HomeContainer />} />
+          <Route exact path="/home" element={<HomeContainer />} />
+          <Route path="/explore" element={<ExploreContainer />} />
+          <Route path="/messages" element={<MessageContainer />} />
+          <Route path="/notifications" element={<NotificationsContainer />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

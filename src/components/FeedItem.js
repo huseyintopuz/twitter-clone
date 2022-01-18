@@ -1,7 +1,7 @@
 import React from 'react'
 import { LikeIcon, ReplyIcon, RetweetIcon, ShareIcon } from '../icons/Icon'
 
-export const FeedItem = ({avatar,content,displayName,image,timestamp,username}) => {
+export const FeedItem = ({avatar,text,displayName,image,username}) => {
     return (
         <article>
             <img src={avatar} alt="Profile"></img>
@@ -10,9 +10,8 @@ export const FeedItem = ({avatar,content,displayName,image,timestamp,username}) 
                     <h4>{displayName}</h4>
                     <span>{username}</span>
                     <div className="dot" />
-                    <span >{timestamp?.toDate().toLocaleTimeString("tr-TR")}</span>
                 </div>
-                <p>{content}</p>
+                <p>{text}</p>
                 {image && <img src={image} alt="" />}
                 <ul>
                     <li>

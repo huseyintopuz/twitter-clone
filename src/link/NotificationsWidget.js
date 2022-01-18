@@ -23,7 +23,7 @@ export const NotificationsWidget = () => {
                     </div>
                 </div>
                 <div className="width">
-                    <div className="flex">
+                    <div className="flex3">
                         <span className="">Trending in Turkey</span>
                         <div className="column">
                             <div className="circle" />
@@ -37,7 +37,7 @@ export const NotificationsWidget = () => {
                     </div>
                 </div>
                 <div className="width">
-                    <div className="flex">
+                    <div className="flex3">
                         <p className="">Trending in Turkey</p>
                         <div className="column">
                             <div className="circle" />
@@ -51,7 +51,7 @@ export const NotificationsWidget = () => {
                     </div>
                 </div>
                 <div className="width">
-                    <div className="flex">
+                    <div className="flex3">
                         <p className="">Trending in Turkey</p>
                         <div className="column">
                             <div className="circle" />
@@ -65,7 +65,7 @@ export const NotificationsWidget = () => {
                     </div>
                 </div>
                 <div className="width">
-                    <div className="flex">
+                    <div className="flex3">
                         <p className="">Trending in Turkey</p>
                         <div className="column">
                             <div className="circle" />
@@ -134,13 +134,13 @@ export const NotificationsWidget = () => {
                 </div>
                 <div className="show-more">Show more</div>
             </div>
-            <div className="footer">
-                <nav className="nav-span">
+            <div className="footer2">
+                <nav className="nav-span2">
                     <span>Terms of Service</span>
                     <span>Privacy Policy</span>
                     <span>Cookie Privacy</span>
                 </nav>
-                <nav className="nav-span">
+                <nav className="nav-span2">
                     <span>Imprint</span>
                     <span>Ads info</span>
                     <span>More</span>
@@ -149,10 +149,10 @@ export const NotificationsWidget = () => {
                         <div className="more-icon" />
                         <div className="more-icon" />
                     </div>
-                    <div className="inc">
-                        <span>2021 Twitter, Inc.</span>
-                    </div>
                 </nav>
+                <div className="inc">
+                        <span>2022 Twitter, Inc.</span>
+                </div>
             </div>
         </main>
     )

@@ -1,28 +1,36 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { MediaIcon, GifIcon, PollIcon, EmojiIcon, ScheduleIcon } from '../icons/Icon';
 import "./tweetbox.css";
-// import db from "../firebase";
-// import firebase from "firebase";
+import {
+    collection,
+    getDocs,
+    addDoc,
+    deleteDoc,
+    doc
+} from 'firebase/firestore';
+import { db } from "../firebase";
 
 export const Tweetbox = () => {
-    // const [content, setContent] = useState("");
-    // const sendTweet = (e) => {
-    //     e.preventDefault();
-    //     if (content !== '') {
-    //         db.collection('feed').add({
-    //             displayName: "Huseyin Topuz",
-    //             username: "@HuseyinTopuz13",
-    //             content,
-    //             timestamp: firebase.fire
-    //             avatar: "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"
-    //         })
-    //     }
-    // }
+
+    const [text, setText] = useState("")    
+
+    const postsCollectionRef = collection(db, "posts")
+
+    const sendTweet = async () => {
+        await addDoc(postsCollectionRef,
+            {
+                displayName: "HuseyinTopuz",
+                userName: "Hüseyin TOPUZ",
+                text,
+                avatar: "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"    
+            })
+        setText("")
+    }
+    
     return (
         <div className="tweetbox">
             <textarea
-                placeholder="What's happening?" type="text" 
-                // onChange={(e) => setContent(e.target.value)} value={content}
+                value={text} onChange={e => setText(e.target.value)} placeholder="What's happening?" type="text"
             />
             <div className="classdiv0">
                 <div className="classdiv1">
@@ -32,9 +40,9 @@ export const Tweetbox = () => {
                         <PollIcon className="light-blue" />
                         <EmojiIcon className="light-blue" />
                         <ScheduleIcon className="light-blue" />
-                        <button className="button" 
+                        <button className="button" onClick={sendTweet}
                         // onClick={sendTweet}
-                         >Tweet</button>
+                        >Tweet</button>
                     </div>
                 </div>
             </div>

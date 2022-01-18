@@ -1,7 +1,6 @@
-main {
+.main {
     position: relative;
     margin: 0;
-    top: -8px;
     flex: 1 1 0%;
     flex-direction: column;
     border-right: 1px solid #EFF3F4;

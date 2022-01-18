@@ -5,7 +5,7 @@ import "./messagecontent.css"
 
 export const MessageContent = () => {
     return (
-        <main>
+        <main className="main">
             <div className="message-content">
                 <div className="messages">
                     <h2>

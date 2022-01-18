@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { SideLink } from '../components/SideLink';
 import { Twitter, HomeIcon, ExploreIcon, NotificationsIcon, MessagesIcon, ProfileIcon, MoreIcon } from '../icons/Icon'
 import './sidebar.css';
@@ -7,6 +8,7 @@ const sideLinks = [
     {
         name: 'Home',
         icon: HomeIcon,
+
     },
     {
         name: 'Explore',
@@ -31,7 +33,6 @@ const sideLinks = [
 ];
 
 export const Sidebar = () => {
-    // const [bgColour, setBgColour] = useState("rgb(29, 155, 240)")
 
     return (
         <div className="mysidebar">
@@ -42,9 +43,13 @@ export const Sidebar = () => {
                     </div>
                     <nav>
                         <ul style={{ paddingLeft: 0 }}>
-                            {sideLinks.map(({ name, icon}) => (
-                                <SideLink active key={name} name={name} Icon={icon} />
+
+                            {sideLinks.map(({ name, icon }) => (
+                                <Link key={name} to={`/${name.toLowerCase()}`} >
+                                    <SideLink active key={name} name={name} Icon={icon} />
+                                </Link>
                             ))}
+
                         </ul>
                     </nav>
                     <button className="enes">
@@ -68,8 +73,6 @@ export const Sidebar = () => {
                     </div>
                 </div>
             </div>
-
         </div>
-
     )
 }

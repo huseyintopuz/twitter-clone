@@ -6,10 +6,10 @@ import './explore.css'
 export const ExploreContent = () => {
     return (
         <main className="explore">
-            <div className="div-class">
-                <div className="div-class2">
+            <div className="div-class5">
+                <div className="div-class6">
                     <SearchIcon className="search" />
-                    <input className="input" placeholder="Search Twitter"></input>
+                    <input className="input5" placeholder="Search Twitter"></input>
                 </div>
                 <div className="setting">
                     <Settings />
