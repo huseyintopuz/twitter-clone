@@ -8,7 +8,6 @@ const sideLinks = [
     {
         name: 'Home',
         icon: HomeIcon,
-
     },
     {
         name: 'Explore',

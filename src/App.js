@@ -10,12 +10,9 @@ import { ExploreContainer } from './ContainerLayout/ExploreContainer';
 import { MessageContainer } from './ContainerLayout/MessageContainer';
 import { NotificationsContainer } from './ContainerLayout/NotificationsContainer';
 import { Sidebar } from './layout/Sidebar';
-// import { selectHeads } from './features/headReducer'
-// import { useSelector } from 'react-redux';
 
 function App() {
   document.title = "Twitter.com"
-  // const heads = useSelector(selectHeads)
 
   return (
     <div className="App">

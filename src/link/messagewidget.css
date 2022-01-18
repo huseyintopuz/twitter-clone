@@ -5,8 +5,7 @@
     padding-top: 3px;
     justify-content: center;
     align-items: center;
-    font-family: helvetica;
-    
+    font-family: helvetica;   
 }
 .you-width {
     display: flex;
@@ -16,7 +15,6 @@
     margin: 32px 99.5px;
     padding: 0 2rem;
     justify-content: center;
-    
 }
 .span-you {
     font-size: 30px;

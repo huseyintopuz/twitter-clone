@@ -20,7 +20,6 @@
     justify-content: center;
     border: 0;
     background-color: #fff;
-    
 }
 .arama > svg {
     position: absolute;
@@ -45,19 +44,11 @@
     border-radius: 9999px;
     background: #EFF3F4; 
     border: 1px solid #EFF3F4;
-
-    /* border: none;
-    background-color: #EFF3F4; */
 }
-/* .arama > svg:focus{  OLMADI
-    fill: currentColor;
-    color:darkblue; 
-}*/
 .arama :focus{
     outline: none;
     background: white;
     border: 1px solid #1D9BF0;
-    /* border: 1px transparent rgb(86, 161, 204); OLMADI */
 }
 .share {
     margin-left: 0.8rem;

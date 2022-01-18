@@ -84,7 +84,3 @@ export const ExploreWidget = () => {
         </main>
     )
 }
-//
-// 
-// 
-// https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_400x400.jpg

@@ -32,7 +32,6 @@ header > span {
     opacity: 0.9;
     font-family: cursive;
 }
-
 .toptweet {
     background: white;
     display: flex;
@@ -70,7 +69,6 @@ aside {
     justify-content: center;
     height: 60px;
 }
-
 .condition-flex > img {
     border-width: 1px;
     width: 46px;
@@ -86,7 +84,6 @@ aside {
     background: #B2BAC0;
     opacity: 1;
 }
-
 .icon {
     position: relative;
     top: 1rem;
@@ -116,7 +113,6 @@ aside {
 }
 .light-blue g, .light-blue path, .light-blue circle{
     fill: #1D9BF0;
-    
 }
 .light-blue:hover{
     background: #E8F5FD;
@@ -141,7 +137,6 @@ textarea {
 .classdiv2 > div {
     display: flex;
 }
-
 .size >svg {
     height: 18px !important;
     fill: currentColor;

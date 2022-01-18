@@ -2,7 +2,6 @@ import React from 'react'
 import { Message, Settings } from '../icons/Icon'
 import "./messagecontent.css"
 
-
 export const MessageContent = () => {
     return (
         <main className="main">

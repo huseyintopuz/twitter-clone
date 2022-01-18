@@ -2,7 +2,6 @@ import React from 'react'
 import { SearchIcon, Settings, Tick } from '../icons/Icon'
 import "./notificationwidget.css"
 
-
 export const NotificationsWidget = () => {
     return (
         <main className="notifications-widget" >
