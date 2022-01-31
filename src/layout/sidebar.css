@@ -92,3 +92,13 @@ display: flex;
 margin-left: 1.5rem; 
 align-items: center;    
 }
+.span-style {    
+    margin-left: 1.25rem; 
+    font-weight: 400; 
+    color: #322f2f;
+    font-size: 20px;
+}
+.span-style-active {
+    color: black;
+    font-weight: 600;
+}

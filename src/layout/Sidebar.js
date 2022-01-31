@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import { SideLink } from '../components/SideLink';
 import { Twitter, HomeIcon, ExploreIcon, NotificationsIcon, MessagesIcon, ProfileIcon, MoreIcon } from '../icons/Icon'
 import './sidebar.css';
@@ -44,9 +44,9 @@ export const Sidebar = () => {
                         <ul style={{ paddingLeft: 0 }}>
 
                             {sideLinks.map(({ name, icon }) => (
-                                <Link key={name} to={`/${name.toLowerCase()}`} >
-                                    <SideLink active key={name} name={name} Icon={icon} />
-                                </Link>
+                                <NavLink active key={name} to={`/${name.toLowerCase()}`} className='span-style' activeClassName='span-style-active'>
+                                    <SideLink key={name} name={name} Icon={icon} />
+                                </NavLink>
                             ))}
 
                         </ul>
